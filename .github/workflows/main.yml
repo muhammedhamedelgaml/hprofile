@@ -13,3 +13,7 @@ jobs:
        - name: checkstyle
          run: mvn checkstyle:checkstyle 
 
+       - uses: actions/setup-java@v3
+         with:
+           distribution: 'temurin' 
+           java-version: '17'
