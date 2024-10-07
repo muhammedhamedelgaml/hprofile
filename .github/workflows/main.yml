@@ -1,5 +1,6 @@
 name: hprofile-Actions
 on: workflow_dispatch 
+# on: [push , workflow_dispatch]
 env: 
   AWS_REGION: us-west-1
   ECR_REPO:  vpro-act
